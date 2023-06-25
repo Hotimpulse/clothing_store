@@ -777,21 +777,6 @@ a {
     margin-top: 20px;
   }
 
-  .card-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 145px;
-    height: 44px;
-    inset: 0;
-    margin: auto;
-    position: absolute;
-    top: 75rem;
-    left: 25rem;
-    z-index: 3;
-    transition: all 0.3s ease;
-  }
-
   .additional-info {
     display: flex;
     flex-direction: column;
@@ -1159,20 +1144,6 @@ a {
 
   .featured-btn {
     margin-top: 20px;
-  }
-
-  .card-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 145px;
-    height: 44px;
-    inset: 0;
-    margin: auto;
-    position: absolute;
-    top: 160rem;
-    z-index: 3;
-    transition: all 0.3s ease;
   }
 
   .subscribe {
