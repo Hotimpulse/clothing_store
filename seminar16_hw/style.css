@@ -424,6 +424,10 @@
   transition: all 0.2s;
 }
 
+a {
+  text-decoration: none;
+}
+
 .featured-btn:hover {
   background-color: #f16d7f;
   border-color: #ff6a6a;
