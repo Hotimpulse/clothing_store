@@ -84,7 +84,7 @@
 .dropdown-headline {
   padding: 1rem;
   color: #000;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-family: "Lato";
   font-weight: 700;
 }
@@ -97,7 +97,7 @@
   padding: 1rem;
 
   color: #f16d7f;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Lato";
 }
 
@@ -106,8 +106,12 @@
   margin-left: 1rem;
 
   color: #6f6e6e;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Lato";
+}
+
+.menu-list__items > a:hover {
+  color: #f15858;
 }
 
 .burger-icon:hover .dropdown {
