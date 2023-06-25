@@ -304,11 +304,12 @@
   display: flex;
   flex-direction: column;
   width: min(100% - 0rem, 360px);
+  position: relative;
   cursor: pointer;
 }
 
 .card-overlay {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 145px;
@@ -316,14 +317,13 @@
   inset: 0;
   margin: auto;
   position: absolute;
-  top: 110rem;
-  z-index: 3;
+  top: -30%;
+  z-index: 5;
   transition: all 0.3s ease;
-  opacity: 0;
 }
 
-.featured-card:hover > .card-overlay {
-  opacity: 1;
+.featured-card:hover .card-overlay {
+  display: flex;
   cursor: pointer;
 }
 
