@@ -1,3 +1,5 @@
+// main page menu
+
 const menu = document.querySelector(".dropdown");
 const burger = document.querySelector(".burger-icon");
 
