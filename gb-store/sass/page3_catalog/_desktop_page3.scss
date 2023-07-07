@@ -116,36 +116,53 @@
   display: flex;
 }
 
-//bread-crumbs
+//breadcrumbs
 
-.catalog__bread-crumbs-wrapper {
+.catalog__breadcrumbs_heading {
+  @include a.centerFlex();
+  color: a.$buttonHover;
+  font-family: Lato;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-right: 70px;
+
+}
+
+.catalog__breadcrumbs_head-link {
+  color: a.$buttonHover;
+}
+
+.catalog__breadcrumbs {
   @include a.centerFlex();
   height: 148px;
   background-color: #f8f3f4;
-}
-
-.catalog__bread-crumbs__heading,
-.catalog__bread-crumbs {
-  @include a.centerFlex();
-}
-
-.catalog__bread-crumbs {
-  color: #636363;
   font-size: 0.875rem;
   font-family: Lato;
   font-weight: 300;
-}
 
-.catalog__bread-crumbs__heading {
-  color: a.$buttonHover;
-  font-size: 1.5rem;
-  font-family: Lato;
-  font-weight: 400;
-}
+  &_unordered {
+    @include a.centerFlex();
+    list-style: none;
+    text-decoration: none;
+    color: #636363;
+  }
 
-.catalog__bread-crumb3 {
-  color: a.$buttonHover;
-  font-weight: 600;
+  &_item > a {
+    &:visited {
+      color: inherit;
+    }
+  }
+  
+  &_item {
+    &:nth-child(3) {
+      color: a.$buttonHover;
+      font-weight: 600;
+    }
+    &:not(:last-child) ::after {
+      content: "/";
+      padding: 0 0.2rem;
+    }
+  }
 }
 
 // cards section 
@@ -171,7 +188,7 @@
     z-index: 4;
     width: 360px;
     background-color: a.$genericBg;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.507);
   }
   
   &__filter-summary {
