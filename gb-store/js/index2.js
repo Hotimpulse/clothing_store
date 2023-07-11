@@ -1,3 +1,5 @@
+`use strict`;
+
 // products page menu
 
 const menuS = document.querySelector(".products__dropdown");

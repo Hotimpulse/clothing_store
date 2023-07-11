@@ -1,3 +1,5 @@
+`use strict`;
+
 // main page menu
 
 const menu = document.querySelector(".dropdown");

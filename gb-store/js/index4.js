@@ -1,9 +1,9 @@
 `use strict`;
 
-// catalog page menu
+// cart page menu
 
-const menuS = document.querySelector(".catalog__dropdown");
-const burgerS = document.querySelector(".catalog__burger-icon");
+const menuS = document.querySelector(".cart__dropdown");
+const burgerS = document.querySelector(".cart__burger-icon");
 burgerS.addEventListener("mouseover", () => {
     menuS.style.display = "flex";
 });
