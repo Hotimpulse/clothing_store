@@ -3219,10 +3219,88 @@ a {
   display: flex;
   flex-direction: column;
   width: 22.5rem;
+  margin-bottom: 6rem;
+}
+.register__left-panel_name-text1, .register__left-panel_name-text2 {
+  color: #222;
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+.register__left-panel_input1 {
+  margin-bottom: 1.31rem;
+}
+.register__left-panel_input1, .register__left-panel_input2, .register__left-panel_input3, .register__left-panel_input4 {
+  width: 22.43663rem;
+  height: 2.75rem;
+  border: 1px solid #a4a4a4;
+  background: none;
+  padding: 1rem;
+  outline: none;
+}
+.register__left-panel_input2, .register__left-panel_input3 {
+  margin-bottom: 1.28rem;
+}
+.register__left-panel_main-wrapper {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.register__left-panel_wrapper1 > *, .register__left-panel_wrapper2 > * {
+  margin-right: 0.69rem;
+  color: #000;
+  font-family: Lato;
+  font-size: 0.7875rem;
+  font-weight: 300;
+}
+.register__left-panel_input4 {
+  margin-bottom: 1rem;
+}
+.register__left-panel #male,
+.register__left-panel #female {
+  width: 1.0625rem;
+  height: 1.0625rem;
+}
+.register__left-panel_lower-text {
+  color: #b1b1b1;
+  font-family: Lato;
+  font-size: 0.8125rem;
+  font-weight: 300;
+  margin-bottom: 2.44rem;
+}
+.register__left-panel_join-btn {
+  width: 10.4375rem;
+  height: 3.125rem;
+  border: none;
+  background-color: #f26376;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.register__left-panel_join-btn .right-small-arrow path {
+  fill: white;
+  transition: all 0.5s ease-in-out;
+}
+.register__left-panel_join-btn > span {
+  font-family: Lato;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-right: 1.25rem;
+}
+.register__left-panel_join-btn:hover {
+  background-color: red;
+  color: black;
+  transform: scale(1.02);
+}
+.register__left-panel_join-btn:hover:hover > .right-small-arrow path {
+  transition: fill 0.5s ease-in-out;
+  fill: black;
 }
 .register__right-panel {
   display: flex;
   flex-direction: column;
+  margin-top: -16rem;
 }
 .register__right-panel_heading {
   color: #000;
