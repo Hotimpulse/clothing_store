@@ -2793,6 +2793,12 @@ a {
   font-weight: 300;
   margin-bottom: 8rem;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.cart__clear-btn:hover, .cart__continue-btn:hover {
+  color: white;
+  background-color: #f26376;
+  border: #f26376;
 }
 .cart__right-panel {
   display: flex;
@@ -2822,6 +2828,12 @@ a {
   border: 1px solid #A4A4A4;
   margin-bottom: 3.56rem;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.cart__right-panel_quote-btn:hover {
+  color: white;
+  background-color: #f26376;
+  border: #f26376;
 }
 .cart__checkout-price {
   display: flex;
@@ -2881,6 +2893,11 @@ a {
   font-size: 1rem;
   font-weight: 300;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.cart__checkout-price_proceed-btn:hover {
+  color: black;
+  background-color: #f26376;
 }
 
 .cart__subscribe {

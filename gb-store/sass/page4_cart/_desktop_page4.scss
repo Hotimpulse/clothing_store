@@ -239,6 +239,12 @@
 
         margin-bottom: 8rem;
         cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            color: white;
+            background-color: a.$accentColor;
+            border: a.$accentColor;
+        }
     }
 
     &__right-panel {
@@ -271,6 +277,12 @@
             margin-bottom: 3.56rem;
 
             cursor: pointer;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+            color: white;
+            background-color: a.$accentColor;
+            border: a.$accentColor;
+            }
         }
     }
     
@@ -338,6 +350,12 @@
             font-size: 1rem;
             font-weight: 300;
             cursor: pointer;
+
+            transition: all 0.5s ease-in-out;
+            &:hover {
+            color: black;
+            background-color: a.$accentColor;
+            }
         }
     }
 }
