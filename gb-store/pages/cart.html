@@ -65,11 +65,13 @@
               alt="profile icon"
               class="cart__profile-icon"
             />
-            <img
-              src="../img/icons/cart.svg"
-              alt="cart icon"
-              class="cart__cart-icon"
-            />
+            <a href="./cart.html">
+                <img
+                  src="../img/icons/cart.svg"
+                  alt="cart icon"
+                  class="cart__cart-icon"
+                />
+            </a>
             <div class="cart__cart-item"></div>
           </div>
         </nav>
@@ -79,7 +81,7 @@
 
         <div class="cart__breadcrumbs">
             <div class="cart__breadcrumbs_heading">
-                <a class="cart__breadcrumbs_head-link" href="./catalog.html">SHOPPING CART</a>
+                <a class="cart__breadcrumbs_head-link" href="./cart.html">SHOPPING CART</a>
             </div>
         </div>
 
@@ -89,28 +91,39 @@
                 <img class="cart__img" src="../img/jpgs_pngs/product3.jpg" alt="man wearing a bucket hat, a navy hoodie and white shorts">
                 <div class="cart__info-wrapper">
                     <span class="cart__item_name">MANGO  PEOPLE  T-SHIRT</span>
-                    <span class="cart__item_price">Price:</span>
-                    <span class="cart__item_color">Color:</span>
-                    <span class="cart__item_size">Size:</span>
+                    <span class="cart__item_price">Price: 
+                        <span class="cart__item_price_number">$300</span>
+                    </span>
+                    <span class="cart__item_color">Color: 
+                        <span class="cart__item_price_text">Red</span>
+                    </span>
+                    <span class="cart__item_size">Size: 
+                        <span class="cart__item_price_text">Xl</span>
+                    </span>
                     <div class="cart__item_quantity-wrapper">
-                        <span class="cart__item_quantity">Quantity:</span><input type="number">
+                        <span class="cart__item_quantity">Quantity:</span><input class="cart__item_quantity_input" type="number" placeholder="2" readonly>
                     </div>
-                    <span class="cart__item_cross"></span>
                 </div>
+                <span class="cart__item_cross"></span>
               </div>
               <div class="cart__card card2">
                 <img class="cart__img" src="../img/jpgs_pngs/product7.png" alt="man wearing a burgundy jacket and black pants">
                 <div class="cart__info-wrapper">
                     <span class="cart__item_name">MANGO  PEOPLE  T-SHIRT</span>
-                    <span class="cart__item_price">Price:</span>
-                    <span class="cart__item_color">Color:</span>
-                    <span class="cart__item_size">Size:</span>
+                    <span class="cart__item_price">Price: 
+                        <span class="cart__item_price_number">$300</span>
+                    </span>
+                    <span class="cart__item_color">Color: 
+                        <span class="cart__item_price_text">Red</span>
+                    </span>
+                    <span class="cart__item_size">Size: 
+                        <span class="cart__item_price_text">Xl</span>
+                    </span>
                     <div class="cart__item_quantity-wrapper">
-                        <span class="cart__item_quantity">Quantity:</span><input type="number">
+                        <span class="cart__item_quantity">Quantity:</span><input class="cart__item_quantity_input" type="number" placeholder="2" readonly>
                     </div>
-                    <span class="cart__item_cross"></span>
-                        
                 </div>
+                <span class="cart__item_cross"></span>
               </div>
               <div class="cart__btn-wrapper">
                   <button class="cart__clear-btn">CLEAR SHOPPING CART</button>
@@ -119,9 +132,9 @@
           </div>
           <div class="cart__right-panel">
             <h4 class="cart__right-panel_heading">SHIPPING ADDRESS</h4>
-            <input class="cart__right-panel_input" type="address" placeholder="Bangladesh">
-            <input class="cart__right-panel_input" type="text" placeholder="State">
-            <input class="cart__right-panel_input" type="text" placeholder="Postcode / Zip">
+            <input id="country" class="cart__right-panel_input" type="text" placeholder="Bangladesh">
+            <input id="state" class="cart__right-panel_input" type="text" placeholder="State">
+            <input id="zip" class="cart__right-panel_input" type="text" placeholder="Postcode / Zip">
             <button class="cart__right-panel_quote-btn">GET A QUOTE</button>
 
             <div class="cart__checkout-price">

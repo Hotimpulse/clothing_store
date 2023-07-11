@@ -118,28 +118,28 @@
 
 //breadcrumbs
 
-.cart__breadcrumbs_heading {
-  display: flex;
-  height: 9.25rem;
-  color: a.$buttonHover;
-  font-family: Lato;
-  font-size: 1.5rem;
-  font-weight: 400;
-    background-color: #F8F3F4;
-  position: relative;
-  top: 0;
-  padding: 0 25%;
+.cart__breadcrumbs {
+    &_heading {
+      display: flex;
+      height: 9.25rem;
+      color: a.$buttonHover;
+      font-family: Lato;
+      font-size: 1.5rem;
+      font-weight: 400;
+        background-color: #F8F3F4;
+      position: relative;
+      top: 0;
+      padding: 0 25%;
+    }
+    &_head-link {
+      color: a.$buttonHover;
+      margin: 3.69rem 0;
+    
+    }
 }
 
-.cart__breadcrumbs_head-link {
-  color: a.$buttonHover;
-  margin: 3.69rem 0;
-
-}
 
 // cart contents
-
-
 
 .cart {
     &__contents {
@@ -191,18 +191,37 @@
             font-family: Lato;
             font-size: 1.375rem;
             font-weight: 400;
+            &_number {
+                color: #EF5B70;
+            }
         }
         &_cross {
-            display: flex;
+            display: block;
+            position: relative;
+            top: 2rem;
+            left: 4rem;
             width: 50px;
             height: 50px;
-            background: url(../../img/icons/cross-icon.svg);
+            background: url("./../img/icons/cross-icon.svg") no-repeat center;
+            cursor: pointer;
         }
         &_quantity {
             margin-right: 1rem;
+            &_input {
+                padding: 0 10px;
+                &:focus {
+                    outline: none;
+                }
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+                }
+            }
         }
+
     }
-    
+
     &__btn-wrapper {
         display: flex;
     }
@@ -219,6 +238,7 @@
         font-weight: 300;
 
         margin-bottom: 8rem;
+        cursor: pointer;
     }
 
     &__right-panel {
@@ -235,9 +255,7 @@
             width: 360px;
             height: 45px;
             margin: 1rem 0;
-            &::placeholder {
-                padding-left: 1rem;
-            }
+            padding-left: 1rem;
         }
         
         &_quote-btn {
@@ -251,6 +269,8 @@
             background: none;
             border: 1px solid #A4A4A4;
             margin-bottom: 3.56rem;
+
+            cursor: pointer;
         }
     }
     
@@ -321,13 +341,6 @@
         }
     }
 }
-
-
-
-
-// catalog additional info section
-
-
 
 // cart__subscribe section
 
