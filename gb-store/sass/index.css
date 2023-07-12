@@ -116,10 +116,6 @@
   color: #f15858;
 }
 
-.burger-icon:hover .dropdown {
-  display: flex;
-}
-
 .hero-section {
   display: flex;
   justify-content: center;

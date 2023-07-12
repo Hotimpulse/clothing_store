@@ -2,12 +2,12 @@
 
 // catalog page menu
 
-const menuS = document.querySelector(".catalog__dropdown");
-const burgerS = document.querySelector(".catalog__header__icon-set2_burger");
-burgerS.addEventListener("mouseover", () => {
-    menuS.style.display = "flex";
+const menu3 = document.querySelector(".catalog__dropdown");
+const burger3 = document.querySelector(".catalog__header__icon-set2_burger");
+burger3.addEventListener("mouseover", () => {
+    menu3.style.display = "flex";
 });
 
-menuS.addEventListener("mouseleave", () => {
-    menuS.style.display = "none";
+menu3.addEventListener("mouseleave", () => {
+    menu3.style.display = "none";
 });

@@ -2,12 +2,12 @@
 
 // registration page menu
 
-const menuS = document.querySelector(".register__dropdown");
-const burgerS = document.querySelector(".register__header__icon-set2_burger");
-burgerS.addEventListener("mouseover", () => {
-    menuS.style.display = "flex";
+const menu5 = document.querySelector(".register__dropdown");
+const burger5 = document.querySelector(".register__header__icon-set2_burger");
+burger5.addEventListener("mouseover", () => {
+    menu5.style.display = "flex";
 });
 
-menuS.addEventListener("mouseleave", () => {
-    menuS.style.display = "none";
+menu5.addEventListener("mouseleave", () => {
+    menu5.style.display = "none";
 });

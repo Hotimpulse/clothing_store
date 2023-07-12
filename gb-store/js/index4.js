@@ -2,12 +2,12 @@
 
 // cart page menu
 
-const menuS = document.querySelector(".cart__dropdown");
-const burgerS = document.querySelector(".cart__header__icon-set2_burger");
-burgerS.addEventListener("mouseover", () => {
-    menuS.style.display = "flex";
+const menu4 = document.querySelector(".cart__dropdown");
+const burger4 = document.querySelector(".cart__header__icon-set2_burger");
+burger4.addEventListener("mouseover", () => {
+    menu4.style.display = "flex";
 });
 
-menuS.addEventListener("mouseleave", () => {
-    menuS.style.display = "none";
+menu4.addEventListener("mouseleave", () => {
+    menu4.style.display = "none";
 });
