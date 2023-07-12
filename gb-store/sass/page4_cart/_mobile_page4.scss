@@ -1,6 +1,6 @@
 @use "../styles/mixins/variables" as a;
 
-@media (width <= 768px) {
+@media (width < 768px) {
 
     //nav header
     

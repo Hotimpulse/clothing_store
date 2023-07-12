@@ -1,7 +1,7 @@
 /* tablet queries */
 @use "../styles/mixins/variables" as a;
 
-@media (width <= 768px) {
+@media (width < 768px) {
   .register__header__navigation {
     @include a.centerFlex();
     height: 74px;

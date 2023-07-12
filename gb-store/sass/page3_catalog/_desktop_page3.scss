@@ -125,7 +125,6 @@
   font-size: 1.5rem;
   font-weight: 400;
   margin-right: 70px;
-
 }
 
 .catalog__breadcrumbs_head-link {
@@ -152,7 +151,7 @@
       color: inherit;
     }
   }
-  
+
   &_item {
     &:nth-child(3) {
       color: a.$buttonHover;
@@ -165,10 +164,10 @@
   }
 }
 
-// cards section 
+// cards section
 
 // catalog filter
-.catalog { 
+.catalog {
   &__filter-wrapper {
     @include a.centerFlex();
     margin-top: 1.5rem;
@@ -183,14 +182,14 @@
     top: 0rem;
     left: 0rem;
   }
-  
+
   &__filter-details[open] {
     z-index: 4;
     width: 360px;
     background-color: a.$genericBg;
     box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.507);
   }
-  
+
   &__filter-summary {
     display: flex;
     justify-content: center;
@@ -200,7 +199,7 @@
     padding: 13px 13px 13px 10px;
     cursor: pointer;
   }
-  
+
   &__filter-tag {
     color: #000;
     font-family: Lato;
@@ -211,14 +210,14 @@
       color: a.$accentColor;
     }
   }
-  
-  &__selectors-wrapper { 
+
+  &__selectors-wrapper {
     @include a.centerFlex();
     margin-top: 0.8rem;
 
     & > * {
       @include a.centerFlex();
-      color: #6F6E6E;
+      color: #6f6e6e;
       font-family: Lato;
       font-size: 0.875rem;
       font-weight: 400;
@@ -240,21 +239,21 @@
     display: flex;
     width: 5px;
     height: 37px;
-    background-color: #EF5B70;
+    background-color: #ef5b70;
   }
 
   &__pink-heading {
     @include a.centerFlex();
     align-items: left;
     margin-left: 1rem;
-    color: #6F6E6E;
+    color: #6f6e6e;
     font-family: Lato;
     font-size: 0.875rem;
     font-weight: 400;
     transition: all 0.5s;
     cursor: pointer;
     &:hover {
-      color: #EF5B70;
+      color: #ef5b70;
     }
   }
   &__pink-heading2,
@@ -262,14 +261,14 @@
     @include a.centerFlex();
     align-items: left;
     margin-left: 1rem;
-    color: #6F6E6E;
+    color: #6f6e6e;
     font-family: Lato;
     font-size: 0.875rem;
     font-weight: 400;
     transition: all 0.5s;
     cursor: pointer;
     &:hover {
-      color: #EF5B70;
+      color: #ef5b70;
     }
   }
 
@@ -278,7 +277,7 @@
   &__grey-line3 {
     display: flex;
     height: 1px;
-    background-color: #EBEBEB;  
+    background-color: #ebebeb;
   }
 
   &__details-menu-items {
@@ -292,11 +291,11 @@
     font-weight: 400;
     padding-top: 0.45rem;
     padding-bottom: 0.45rem;
-    & li, a, * {
-      
-      color: #6F6E6E;
+    & li,
+    a,
+    * {
+      color: #6f6e6e;
       text-decoration: none;
-
     }
   }
 
@@ -309,7 +308,6 @@
 .catalog__grey-line2 {
   margin-bottom: 1.16rem;
 }
-
 
 .catalog__size-svg {
   position: relative;
@@ -339,7 +337,7 @@
   @include a.centerFlex();
   width: 17.68169rem;
   height: 2.6875rem;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   margin-top: 3rem;
   margin-bottom: 6rem;
   transition: all 0.5s;
@@ -353,7 +351,7 @@
   cursor: pointer;
   margin: 0 15px;
   padding: 5px;
-  color: #C4C4C4;
+  color: #c4c4c4;
 
   font-family: Lato;
   font-size: 1rem;
@@ -362,7 +360,6 @@
   &.active {
     color: a.$buttonHover;
   }
- 
 }
 
 // cards
