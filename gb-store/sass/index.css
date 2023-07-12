@@ -425,6 +425,9 @@
   border-color: #ff6a6a;
   color: #ffffff;
 }
+.featured-btn:hover a {
+  color: #ffffff;
+}
 
 a {
   text-decoration: none;
@@ -749,6 +752,9 @@ a {
   .featured-btn {
     margin-top: 20px;
   }
+  .featured-btn a {
+    text-decoration: none;
+  }
   .additional-info {
     display: flex;
     flex-direction: column;
@@ -1065,6 +1071,9 @@ a {
   }
   .featured-btn {
     margin-top: 20px;
+  }
+  .featured-btn a {
+    text-decoration: none;
   }
   .subscribe {
     display: flex;

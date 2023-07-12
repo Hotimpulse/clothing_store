@@ -431,6 +431,9 @@
     background-color: a.$buttonHover;
     border-color: #ff6a6a;
     color: a.$genericBg;
+    & a {
+      color: a.$genericBg;
+    }
   }
   
   a {
