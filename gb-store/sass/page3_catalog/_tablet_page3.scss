@@ -210,7 +210,12 @@
       &:hover {
         color: a.$accentColor;
       }
+      &_svg {
+        width: 15px;
+        height: 10px;
+      }
     }
+
 
     &__selectors-wrapper {
       @include a.centerFlex();
