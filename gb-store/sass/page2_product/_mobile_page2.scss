@@ -27,10 +27,8 @@
     cursor: pointer;
   }
 
-  .products__header__icon-set2 {
-    @include a.centerFlex();
-    position: relative;
-    left: 5%;
+  .products__header__icon-set2 :not(.products__header__icon-set2_burger) {
+    display: none;
   }
 
   .products__header__icon-set2 > * {

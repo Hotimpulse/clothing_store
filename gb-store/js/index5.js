@@ -3,7 +3,7 @@
 // registration page menu
 
 const menuS = document.querySelector(".register__dropdown");
-const burgerS = document.querySelector(".register__burger-icon");
+const burgerS = document.querySelector(".register__header__icon-set2_burger");
 burgerS.addEventListener("mouseover", () => {
     menuS.style.display = "flex";
 });

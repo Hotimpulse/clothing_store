@@ -26,10 +26,8 @@
     cursor: pointer;
   }
 
-  .register__header__icon-set2 {
-    @include a.centerFlex();
-    position: relative;
-    left: 5%;
+  .register__header__icon-set2 :not(.register__header__icon-set2_burger) {
+    display: none;
   }
 
   .register__header__icon-set2 > * {

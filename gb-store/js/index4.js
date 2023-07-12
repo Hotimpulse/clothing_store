@@ -3,7 +3,7 @@
 // cart page menu
 
 const menuS = document.querySelector(".cart__dropdown");
-const burgerS = document.querySelector(".cart__burger-icon");
+const burgerS = document.querySelector(".cart__header__icon-set2_burger");
 burgerS.addEventListener("mouseover", () => {
     menuS.style.display = "flex";
 });

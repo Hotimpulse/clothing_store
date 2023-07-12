@@ -28,10 +28,8 @@
       cursor: pointer;
     }
     
-    .cart__header__icon-set2 {
-      @include a.centerFlex();
-      position: relative;
-      left: 5%;
+    .cart__header__icon-set2 :not(.cart__header__icon-set2_burger) {
+      display: none;
     }
     
     .cart__header__icon-set2 > * {
