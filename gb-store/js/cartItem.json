@@ -1,0 +1,86 @@
+[
+  {
+    "picture": "./img/jpgs_pngs/product1.jpg",
+    "itemName": "Puff Jacket",
+    "price": 300,
+    "color": "blue",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product2.jpg",
+    "itemName": "Women's costume",
+    "price": 400,
+    "color": "black",
+    "size": "M"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product3.jpg",
+    "itemName": "Hoodie with a print",
+    "price": 150,
+    "color": "blue",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product4.jpg",
+    "itemName": "Dress shirt",
+    "price": 130,
+    "color": "purple",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product5.jpg",
+    "itemName": "Women's jacket",
+    "price": 220,
+    "color": "light-blue",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product6.jpg",
+    "itemName": "Striped women's shirt",
+    "price": 145,
+    "color": "grey",
+    "size": "M"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product7.png",
+    "itemName": "Plaid shirt",
+    "price": 123,
+    "color": "burgundy",
+    "size": "XL"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product8.png",
+    "itemName": "Dress shirt",
+    "price": 543,
+    "color": "brown",
+    "size": "XL"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product9.png",
+    "itemName": "Leather jacket",
+    "price": 236,
+    "color": "black",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product10.png",
+    "itemName": "Dress shirt",
+    "price": 435,
+    "color": "white",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product11.png",
+    "itemName": "T-Shirt",
+    "price": 312,
+    "color": "white",
+    "size": "L"
+  },
+  {
+    "picture": "./img/jpgs_pngs/product12.png",
+    "itemName": "Crewneck",
+    "price": 188,
+    "color": "white",
+    "size": "XL"
+  }
+]
