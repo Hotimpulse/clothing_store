@@ -1,10 +1,9 @@
 // cart items counter styling
 const cardItemNumber = document.querySelector('.cart__cart-item');
 
-let leftPanel = document.querySelector('.cart__left-panel');
-let counter = leftPanel.children.length - 1;
-
 let loadCartCounter = () => {
+    let leftPanel = document.querySelector('.cart__left-panel');
+    let counter = leftPanel.children.length - 1;
     if (leftPanel.children.length >= 1) {
         cardItemNumber.innerText = counter;
     }
@@ -32,6 +31,7 @@ window.addEventListener('resize', () => {
         cardItemNumber.style.display = `none`;
     }
 });
+
 // adding an item to the cart block on the main page
 
 async function fetchDataFromServer() {
